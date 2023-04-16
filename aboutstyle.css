@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+
+body {
+    background-color:#D9D7CC;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width:100%;
+    background-color: #B1B3A2;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+
+}
+
+.left {
+    position: relative;
+    background-color:#B1B3A2;
+    padding:20px;
+    align-items: center;
+
+}
+
+.profile {
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.profile img{
+  width:60%;
+  border-radius:10px;
+  margin-top:5%
+}
+
+.profile h2{
+    color: #FFFFFF;
+    font-size: 2.0em;
+    margin-top: 20px;
+    text-transform:uppercase;
+    text-align: center;
+    line-height: 1.4em;
+    font-family: 'Luxurious Roman',serif;
+
+
+}
+.profile h5 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align:center;
+    color:#FFFFFF;
+     font-family: 'Luxurious Roman', serif;
+}
+
+.contactInfo {
+    padding: 40px 0;
+}
+
+.title {
+    color:#fff;
+    margin-bottom: 20px;
+    text-align:center;
+    font-family: 'Luxurious Roman', serif;
+    font-size:2.0rem;
+}
+
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    text-align:center;
+
+}
+
+
+.text
+{
+  font-size:1.4rem;
+  text-align:center;
+  font-family: 'Luxurious Roman', serif;
+  line-height: 1.4em;
+}
+
+
+.contactInfo-education ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    text-align:center;
+}
+
+
+
+.contactInfo-education h5 {
+
+    font-size:1.4rem;
+    text-align:center;
+    font-family: 'Luxurious Roman', serif;
+}
+
+.contactInfo-education h4 {
+    color:#FFFFFF;
+    font-size:1.6rem;
+    text-align:center;
+    font-family: 'Luxurious Roman', serif;
+}
+
+.resume
+{
+  margin-top: 4.0rem;
+  margin-bottom: 2.0rem;
+  text-align:center;
+  font-size: 2.8rem;
+  font-family: 'Luxurious Roman', serif;
+}
+
+a
+{
+
+  color:purple;
+  padding:50px 30px;
+  display:block;
+  text-decoration:none;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+a:hover
+{
+background-color:#6B6763;
+color:#B1B3A2;
+
+}
+
+a:active
+{
+  color:green;
+  background-color: White;
+}
+
+
+
+.right {
+    position: relative;
+    background-color: white;
+    padding:60px;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+
+
+.title2 {
+    color:purple;
+    margin-bottom: 40px;
+}
+
+p {
+    color:#333;
+    font-family: 'Luxurious Roman', serif;
+    font-size: 1.4rem;
+}
+
+
+.about .yeah {
+    display: flex;
+    margin: 20px 0;
+}
+
+.year-company {
+    min-width: 150px;
+    margin-top: 5.0rem;
+}
+
+.year-company h5 {
+    color:#6B6763;
+}
+
+.text h4 {
+    color:purple;
+    font-size: 1.4rem;
+}
+
+.skills .yeah {
+    position:relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .yeah h4 {
+    color:#6B6763;
+}
+
+.skills .yeah .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #E0E6D8;
+}
+
+.skills .yeah .percent div {
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    background-color: #7C876B;
+}
+
+
+
+.interest img
+{
+  width:70%;
+  border-radius:10px;
+
+}
+
+.interest ul {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+.interest ul li {
+    list-style: none;
+    margin: 30px 20px;
+    font-size:1.4rem;
+    font-family: 'Luxurious Roman', serif;
+    text-align: center;
+
+
+}
+
+
+@media (max-width:1000px) {
+.container {
+    margin: 10px;
+    grid-template-columns: repeat(1,1fr);
+}
+.interest ul {
+    grid-template-columns: repeat(2,1fr);
+}
+
+}
+
+@media (max-width:600px) {
+  .about .box {
+      flex-direction:column;
+
+  }
+  .about .box .year-company{
+      margin-bottom: 5px;
+  }
+.skills .box {
+    grid-template-columns: repeat(1,1fr);
+}
+.interest ul {
+    grid-template-columns: repeat(1,1fr);
+}
