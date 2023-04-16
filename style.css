@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#header
+{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(finalimage/homepage.jpg);
+  background-position: center;
+  background-size:cover;
+  position:relative;
+
+}
+
+
+
+.navbar
+{
+
+  background-color: #B1B3A2;
+
+}
+
+
+
+.navbar-brand
+{
+ font-size: 1.7rem;
+ color: #FFFFFF;
+ font-family: 'Luxurious Roman', serif;
+
+
+}
+.nav-item
+{
+  font-size:1.7rem;
+  padding:1.1rem 2.9rem;
+  font-family: 'Luxurious Roman', serif;
+
+
+}
+.navbar-toggler-icon
+{
+  color:white;
+}
+
+.nav-link
+{
+  color:#FFFFFF;
+}
+
+.homepage-text
+{
+  text-align: center;
+  width:90%;
+  color:#FFFFFF;
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Vollkorn', serif;
+
+}
+
+.homepage-text h1
+{
+  font-size: 4.0rem;
+
+}
+
+.homepage-text p
+{
+  font-size: 1.7rem;
+
+}
+
+#portfolio
+{
+  padding:20%% 40%;
+}
+
+#portfolio h2
+{
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 4.6rem 0;
+  font-family: 'Vollkorn', serif;
+  margin-top: 3.0rem;
+  margin-bottom: 3.0rem;
+
+}
+
+#portfolio p
+{
+  font-size: 1.5rem;
+  padding: 5%;
+
+}
+
+#portfolio h3
+{
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+
+.portfolio-box
+{
+
+  border-radius: 10px;
+  text-align:center;
+  font-family: 'Luxurious Roman', serif;
+  font-size: 1.2rem;
+
+}
+
+.portfolio-box img
+{
+  width:80%;
+  border-radius:10px;
+margin-bottom: 2.0rem;
+display: inline-block;
+float:center;
+
+　
+}
+
+a
+{
+  color:purple;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+a:hover
+{
+  color:#390045;
+}
+
+a:active
+{
+  color:#B1B3A2;
+}
+
+#kindwords
+{
+
+  text-align: center;
+  font-family: 'Luxurious Roman', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #B1B3A2;
+  padding:5%;
+}
+
+#kindwords h2
+{
+  text-align: center;
+  font-size: 3.0rem;
+  padding: 4.6rem 0;
+  font-family: 'Vollkorn', serif;
+}
+
+#kindwords h3
+{
+  text-align: center;
+  font-size: 2.0rem;
+  font-family: 'Luxurious Roman', serif;
+  margin-bottom: 3.0rem;
+}
+
+.kindwords-image
+{
+  width:10%;
+  border-radius: 50%;
+  margin: 35px;
+}
+
+#impossiblelist
+{
+  padding:5%;
+}
+#impossiblelist h2
+{
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 2.7rem 0;
+  font-family: 'Vollkorn', serif;
+  margin-top: 3.0rem;
+  margin-bottom: 3.0rem;
+
+}
+
+ #impossiblelist h4
+{
+  font-family: 'Vollkorn', serif;
+  text-align:left;
+  font-size: 2.0rem;
+
+}
+
+#impossiblelist p
+{
+  font-family: 'Luxurious Roman', serif;
+  text-align:left;
+  font-size: 1.6rem;
+}
+
+#impossiblelist h6
+{
+  font-family: 'Luxurious Roman', serif;
+  text-align:left;
+  font-size: 1.6rem;
+  margin-bottom: 5.0rem;
+}
